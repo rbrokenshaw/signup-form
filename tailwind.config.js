@@ -4,7 +4,7 @@ export default {
     theme: {
         screens: {
             mobile: '375px',
-            desktop: { min: '768px' },
+            desktop: '1440px',
         },
 
         extend: {
@@ -15,10 +15,6 @@ export default {
                 customBlue: 'hsl(248, 32%, 49%)',
                 darkBlue: 'hsl(248, 32%, 49%)',
                 grayishBlue: 'hsl(246, 25%, 77%)',
-            },
-            backgroundImage: {
-                'mobile-background': "url('./images/bg-intro-mobile.png')",
-                'desktop-background': "url('./images/bg-intro-desktop.png')",
             },
             dropShadow: {
                 custom: '0px 8px 0px rgba(0, 0, 0, 0.2)',
