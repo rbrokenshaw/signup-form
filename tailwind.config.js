@@ -11,7 +11,7 @@ export default {
             colors: {
                 customRed: 'hsl(0, 100%, 74%)',
                 customGreen: 'hsl(154, 59%, 51%)',
-                hoverGreen: 'hsl(154, 59%, %)',
+                hoverGreen: 'hsl(154, 59%, 58%)',
                 customBlue: 'hsl(248, 32%, 49%)',
                 darkBlue: 'hsl(248, 32%, 49%)',
                 grayishBlue: 'hsl(246, 25%, 77%)',

@@ -61,8 +61,10 @@ const Input = ({ type, name, placeholder, validators }: InputProps) => {
 
             {showErrors ? (
                 <>
-                    <img src={errorIcon} className='w-6 absolute right-[70px] mt-4' />
-                    <span className='text-xs text-right text-customRed italic font-semibold'>{formErrors[name]}</span>
+                    <img src={errorIcon} className='w-6 absolute right-[40px] desktop:right-[70px] mt-4' />
+                    <span className='text-xs text-right text-customRed italic font-semibold'>
+                        {formErrors[name][0]}
+                    </span>
                 </>
             ) : null}
         </div>

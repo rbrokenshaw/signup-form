@@ -1,4 +1,4 @@
-import SignUp from './views/signup';
+import SignUp from './views/signup/signup';
 
 function App() {
     return <SignUp />;
