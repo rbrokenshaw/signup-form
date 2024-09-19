@@ -47,7 +47,7 @@ const Form = ({ defaultValues, onSubmit, children }: FormProps) => {
             handleSubmit={handleSubmit}
             submitClicked={submitClicked}
         >
-            <form className='flex flex-col gap-3 desktop:gap-5'>{children}</form>
+            <form className='flex flex-col gap-4 desktop:gap-5'>{children}</form>
         </FormContextProvider>
     );
 };

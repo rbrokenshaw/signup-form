@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Hero from '../../../../views/signup/components/hero';
 
 const meta = {
-    title: 'Views/Sign Up/Hero',
+    title: 'Views/Sign Up/Components/Hero',
     component: Hero,
     parameters: {
         backgrounds: {
