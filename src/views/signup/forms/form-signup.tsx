@@ -29,7 +29,7 @@ const FormSignup = () => {
                 <Form.Button value='Claim your free trial' />
             </Form>
 
-            <span className='text-xs text-grayishBlue text-center px-4 '>
+            <span className='text-xs text-grayishBlue text-center px-2 '>
                 By clicking this button, you are agreeing to our <a href='/path/to/tos'>Terms and Services</a>
             </span>
         </div>

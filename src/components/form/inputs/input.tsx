@@ -54,6 +54,7 @@ const Input = ({ type, name, placeholder, validators }: InputProps) => {
                 } text-sm font-semibold tracking-wide placeholder-gray-500 border focus:outline-none focus:ring-0 rounded-md px-6 py-4`}
                 type={type}
                 name={name}
+                value={formValues[name]}
                 placeholder={placeholder}
                 onChange={handleChange}
                 onFocus={() => setTouched(true)}

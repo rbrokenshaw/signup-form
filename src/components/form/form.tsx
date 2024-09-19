@@ -3,7 +3,7 @@ import { FormContextProvider, FieldValues, FieldErrors } from './context/form-co
 import Input from './inputs/input';
 import InputButton from './inputs/input-button';
 
-type FormProps = {
+export type FormProps = {
     defaultValues: FieldValues;
     onSubmit: (values: FieldValues) => void;
     children: React.ReactNode;
